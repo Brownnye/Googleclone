@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 20px;
+  font-size: 14px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.login-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 500;
+  /* border: none; */
+}
+
+.login-button:hover {
+  background-color: #3367d6;
+}
+
+.middle {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-logo img {
+  width: 272px;
+  height: 92px;
+  cursor: pointer;
+}
+
+.search-container {
+  margin-top: 20px;
+}
+
+.search-bar {
+  width: 500px;
+  height: 50px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #dfe1e5;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-bar:focus {
+  border-color: #4285f4;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.search-button,
+.watch-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-color: #f8f9fa;
+  color: #5f6368;
+  cursor: pointer;
+  margin: 5px;
+  transition: background 0.3s, border 0.3s;
+}
+
+.search-button:hover,
+.watch-button:hover {
+  background-color: #e8e8e8;
+  border: 1px solid #dadce0;
+}
+
+.language-links {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.language-links a {
+  margin: 0 5px;
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+.language-links a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+}
+
+.footer a {
+  margin: 0 10px;
+  color: #5f6368;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
